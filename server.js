@@ -10,7 +10,7 @@ app.use(express.json());
 app.use(passport.initialize());
 
 app.get("/", (req, res) => {
-    res.send("nim:241111558, nama:evan");
+    res.send("nim:241111558,nama:evan");
 });
 
 app.get("/profile",
